@@ -1,0 +1,20 @@
+{
+  "name": "dialog-repro",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test:cypress": "npm cypress open"
+  },
+  "dependencies": {
+    "next": "^12.3.4",
+    "styled-components": "^6.1.0"
+  },
+  "devDependencies": {
+    "@testing-library/cypress": "^10.0.1",
+    "cypress": "^13.4.0"
+  }
+}
